@@ -44,7 +44,7 @@ public class BulletController : MonoBehaviour
                     spawnController.SpawnBoss(); // Sinh ra quái BigRai khi bắn hết quái Rai
                     parallaxController.BossRaiAppeared(); // Gọi phương thức BossRaiAppeared() của ParallaxController
                    // playerController.StopAnimation(); // Gọi phương thức StopAnimation() của PlayerController
-
+                   //
                     // Tạo vàng
                     GameObject goldCoin = Instantiate(goldCoinPrefab, collision.transform.position, Quaternion.identity);
 
